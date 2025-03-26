@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Tracker",
+    "version": "1.0",
+    "description": "Tracks time spent on websites & blocks distractions.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
